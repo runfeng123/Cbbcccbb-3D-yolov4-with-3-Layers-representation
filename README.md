@@ -20,7 +20,7 @@
   
   Partition of grid(x,y): 0.15m 
   
-  Grid size: 1001x1001x3
+  Grid size: 1001 x 1001 x 3
   
   Image size: 1001 x 1001 pixels (RGB image with 3 channels)
 
