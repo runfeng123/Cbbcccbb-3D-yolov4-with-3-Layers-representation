@@ -10,7 +10,7 @@
   - Velodyne point clouds (29 GB)
   - Training labels of object data set (5 MB)
 
-  #### representation of data
+  #### Representation of data
 
   Real world area should be covered: 150m x 150m
   
@@ -27,27 +27,27 @@
   The values of each pixel on images: The number of poins in each block
   
 
-  ### input and prediction
+  ### Input and prediction
 
   - input: 608* 608* 3
   - outout: x,y,z,h,w,l,yaw,confidence,class
   - class: Car, Truck, Van
 
-  ### how to start
+  ### How to start
 
-  ##### train
+  ##### Train
 
       bash train.sh 
 
-  ##### evaluate
+  ##### Evaluate
 
       bash evaluate.sh
 
-  ##### data representation
+  ##### Data representation
 
       python data_representation.py
 
-  ##### get anchors of data
+  ### Get anchors of data
 
       python get_anchors.py
 
@@ -84,13 +84,13 @@ ${ROOT}
       └── requirements.txt
 ```
 
-  ##### performance
+  ##### Performance
   Map: 76.8
   
   FPS:35
 
 
-  ### reference
+  ### Reference
 
   [https://github.com/maudzung/YOLO3D-YOLOv4-PyTorch/tree/4e7f65fe25198f2202f8317fa88321729821ceb8](https://github.com/maudzung/YOLO3D-YOLOv4-PyTorch/tree/4e7f65fe25198f2202f8317fa88321729821ceb8)
 
@@ -99,7 +99,7 @@ ${ROOT}
   
 
 
-  ### author
+  ### Author
 
   - Qu Runfeng
 
