@@ -12,10 +12,14 @@
 
   #### representation of data
 
-  Real world area we want to cover: 150m x 150m \n 
+  Real world area we want to cover: 150m x 150m
+  
   Devide the data into 3 layers along the z axis
+  
   Each layer represents a channel of RGB image
+  
   Resolution of grid(x,y): 0.15m 
+  
   Image size: 1001 x 1001 pixels (RGB image with 3 channels)
 
   So 1 grid cell of this image will have 3 pixels. You have to calculate all the points falling in the grid, and then estimate the
