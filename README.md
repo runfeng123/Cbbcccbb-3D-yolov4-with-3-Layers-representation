@@ -18,14 +18,14 @@
   
   Each layer represents a channel of RGB image
   
-  Resolution of grid(x,y): 0.15m 
+  Partition of grid(x,y): 0.15m 
+  
+  Grid size: 1001*1001*3
   
   Image size: 1001 x 1001 pixels (RGB image with 3 channels)
 
-  So 1 grid cell of this image will have 3 pixels. You have to calculate all the points falling in the grid, and then estimate the
-  1st channel max(100, points in top layer)
-  2nd channel max(100, points in middle layer)
-  3rd channel max(100, points in bottom layer)
+  The values of each pixel on images: The number of poins in each block
+  
 
   ### input and prediction
 
@@ -84,7 +84,10 @@ ${ROOT}
       └── requirements.txt
 ```
 
-
+  ##### performance
+  Map: 76.8
+  
+  FPS:35
 
 
   ### reference
