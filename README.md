@@ -12,11 +12,11 @@
 
   #### representation of data
 
-  Real world area we want to cover: 150m x 150m
+  Real world area should be covered: 150m x 150m
   
   Devide the data into 3 layers along the z axis
   
-  Each layer represents a channel of RGB image
+  Each layer represents a channel of a RGB image
   
   Partition of grid(x,y): 0.15m 
   
